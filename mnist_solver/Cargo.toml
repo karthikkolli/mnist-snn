@@ -1,0 +1,15 @@
+[package]
+name = "mnist_solver"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+snn = { workspace = true }
+ndarray = "0.15"
+rand = "0.8"
+rayon = { workspace = true }
+tokio = { version = "1.47.0", features = ["full"] }
+hf-hub = { version = "0.4.3", features = ["tokio"] }
+parquet = "55.2.0"
+arrow = "55.2.0"
+image = "0.25.6"

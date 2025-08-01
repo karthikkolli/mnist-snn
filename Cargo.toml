@@ -1,0 +1,7 @@
+[workspace]
+members = ["snn", "mnist_solver"]
+resolver = "2"
+
+[workspace.dependencies]
+snn = { path = "snn" }
+rayon = "1.8"
